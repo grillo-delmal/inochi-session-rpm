@@ -114,6 +114,8 @@ Source24:       https://github.com/dayllenger/tinyfiledialogs-d/archive/refs/tag
 Source25:       https://github.com/Inochi2D/cimgui/archive/%{cimgui_commit}/cimgui-%{cimgui_short}.tar.gz
 Source26:       https://github.com/Inochi2D/imgui/archive/%{imgui_commit}/imgui-%{imgui_short}.tar.gz
 
+Patch0:         inochi-session_0.5.3_appdata-fix.patch
+
 # dlang
 BuildRequires:  ldc
 BuildRequires:  dub
@@ -138,6 +140,7 @@ Inochi Session is a tool that lets you use Inochi2D puppets as tracked avatars.
 
 %prep
 %setup -n %{name}-%{inochi_session_commit}
+%patch0 -p1 -b .appdata-fix
 
 mkdir deps
 
