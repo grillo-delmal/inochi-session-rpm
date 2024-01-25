@@ -19,8 +19,6 @@ pushd inochi-session-${COMMIT}
 rm res/tex/ada.png
 rm res/tex/logo.png
 rm res/icon_x256.png
-rm res/icon.ico
-rm res/inochi-session.rc
 
 popd
 
