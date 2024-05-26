@@ -1,8 +1,8 @@
-%define inochi_session_ver 0.8.3
-%define inochi_session_semver 0.8.3
+%define inochi_session_ver 0.8.4
+%define inochi_session_semver 0.8.4
 %define inochi_session_dist 0
-%define inochi_session_commit 88d443ad66fc5d3ccfde961467cd8c3af889695b
-%define inochi_session_short 88d443a
+%define inochi_session_commit cc0e3a47fbc9b4bb149a917fde0570be6931c5cb
+%define inochi_session_short cc0e3a4
 
 # Project maintained deps
 %define dportals_semver 0.1.0
@@ -21,25 +21,25 @@
 %define i18n_d_commit 75c57ea0889d459b73765d932aec02f9b3e71b80
 %define i18n_d_short 75c57ea
 
-%define i2d_imgui_semver 0.8.0+build.3.gf09d58a
-%define i2d_imgui_commit f09d58ad57f420a6d2bb487cfe85819a95ed5193
-%define i2d_imgui_short f09d58a
+%define i2d_imgui_semver 0.8.0+build.4.ge34f8ba
+%define i2d_imgui_commit e34f8ba04c0085be7ee83a8df200cf2ffb30bfd3
+%define i2d_imgui_short e34f8ba
 
 %define i2d_opengl_semver 1.0.0
 %define i2d_opengl_commit 985ab89dd82aafc7f0733e855096a38b4a612762
 %define i2d_opengl_short 985ab89
 
-%define inmath_semver 1.0.5+build.1.g3e46a1a
-%define inmath_commit 3e46a1aafd9ec11f0dea39e2ba6ebb686846baf7
-%define inmath_short 3e46a1a
+%define inmath_semver 1.0.6
+%define inmath_commit 6ee33a0e160bcf0c0286a16e232feeeae2306548
+%define inmath_short 6ee33a0
 
-%define inochi2d_semver 0.8.3
-%define inochi2d_commit 3e9eab9e963ad1ab82e081821f61475fc9d3250d
-%define inochi2d_short 3e9eab9
+%define inochi2d_semver 0.8.4
+%define inochi2d_commit e6049a86c5c1712e828acc293dba6f554ba0155e
+%define inochi2d_short e6049a8
 
-%define inui_semver 1.2.1+build.2.g039d424
-%define inui_commit 039d4247c58bc0afe48595435d0814d3019da5ef
-%define inui_short 039d424
+%define inui_semver 1.2.1+build.4.g4b260a5
+%define inui_commit 4b260a54de54cd1a15ee71e0943d7b797347c931
+%define inui_short 4b260a5
 
 %define vmc_d_semver 1.1.3
 %define vmc_d_commit df1a3b2c1a2bd1cb185c21e3c0a11c611755bb66
@@ -52,21 +52,21 @@
 %define ddbus_ver 3.0.0-beta.2
 %define diet_ng_ver 1.8.1
 %define dunit_ver 1.0.16
-%define eventcore_ver 0.9.28
+%define eventcore_ver 0.9.30
 %define imagefmt_ver 2.1.2
 %define lumars_ver 1.6.1
-%define mir_algorithm_ver 3.21.0
-%define mir_core_ver 1.7.0
+%define mir_algorithm_ver 3.22.1
+%define mir_core_ver 1.7.1
 %define mir_linux_kernel_ver 1.0.1
 %define openssl_ver 3.3.3
-%define openssl_static_ver 1.0.2+3.0.8
+%define openssl_static_ver 1.0.5+3.0.8
 %define silly_ver 1.1.1
 %define stdx_allocator_ver 2.77.5
-%define taggedalgebraic_ver 0.11.22
+%define taggedalgebraic_ver 0.11.23
 %define tinyfiledialogs_ver 0.10.1
-%define vibe_container_ver 1.0.1
-%define vibe_core_ver 2.7.3
-%define vibe_d_ver 0.9.7
+%define vibe_container_ver 1.3.1
+%define vibe_core_ver 2.8.4
+%define vibe_d_ver 0.9.8
 
 # cimgui
 %define cimgui_commit 49bb5ce65f7d5eeab7861d8ffd5aa2a58ca8f08c
