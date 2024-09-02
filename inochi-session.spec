@@ -116,7 +116,7 @@ Requires:       freetype
 Requires:       SDL2
 
 #openssl deps
-Requires:       openssl-devel
+Requires:       openssl
 
 
 %description
