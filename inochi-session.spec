@@ -1,8 +1,8 @@
-%define inochi_session_ver 0.8.4
-%define inochi_session_semver 0.8.4
+%define inochi_session_ver 0.8.7
+%define inochi_session_semver 0.8.7
 %define inochi_session_dist 0
-%define inochi_session_commit cc0e3a47fbc9b4bb149a917fde0570be6931c5cb
-%define inochi_session_short cc0e3a4
+%define inochi_session_commit e31b8f5c2b843bcba89a06a20c106c2cf9e18ecf
+%define inochi_session_short e31b8f5
 
 %if 0%{inochi_session_dist} > 0
 %define inochi_session_suffix ^%{inochi_session_dist}.git%{inochi_session_short}
@@ -37,6 +37,7 @@ Summary:        Tool to use Inochi2D puppets
 ##   mir-algorithm licenses: Apache-2.0
 ##   mir-core licenses: Apache-2.0
 ##   mir-linux-kernel licenses: BSL-1.0
+##   numem licenses: BSD-2-Clause
 ##   openssl licenses: OpenSSL
 ##   silly licenses: ISC
 ##   stdx-allocator licenses: BSD-2-Clause
@@ -92,6 +93,7 @@ BuildRequires:  zdub-lumars-static
 BuildRequires:  zdub-mir-algorithm-static
 BuildRequires:  zdub-mir-core-static
 BuildRequires:  zdub-mir-linux-kernel-static
+BuildRequires:  zdub-numem-static
 BuildRequires:  zdub-openssl-static
 BuildRequires:  zdub-silly-static
 BuildRequires:  zdub-stdx-allocator-static
@@ -145,7 +147,6 @@ This is an unbranded build, unsupported by the official project.
 %prep
 %setup -n %{name}-%{inochi_session_commit}
 
-# FIX: Inochi session version dependent on git
 cat > source/session/ver.d <<EOF
 module session.ver;
 
