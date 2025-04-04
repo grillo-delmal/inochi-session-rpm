@@ -1,0 +1,12 @@
+Common subdirectories: a/build-aux and b/build-aux
+diff -u a/dub.sdl b/dub.sdl
+--- a/dub.sdl   2024-05-26 11:33:45.000000000 -0400
++++ b/dub.sdl   2025-04-04 20:46:54.578541970 -0300
+@@ -17,6 +17,7 @@
+ 
+ dflags "-mscrtlib=msvcrt" platform="windows-ldc"
+ lflags "-rpath=$$ORIGIN" platform="linux"
++lflags "-lz" platform="linux"
+ versions "GL_32" "USE_SDL2" "USE_GL" "SDL_2020" "USE_OpenGL3"
+ stringImportPaths "res"
+ 

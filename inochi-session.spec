@@ -60,6 +60,7 @@ Source1:        icon.png
 Patch0:         inochi-session_0_icon-fix.patch
 Patch1:         inochi-session_1_lumars.patch
 Patch2:         inochi-session_2_metadata-fix.patch
+Patch3:         inochi-session_3_f42fix.patch
 
 # dlang
 BuildRequires:  ldc
@@ -164,6 +165,7 @@ dub add-local deps/bindbc-spout2 "0.1.1"
 %patch -P 0 -p1 -b .inochi-session-icon-fix
 %patch -P 1 -p1 -b .inochi-session-lumars
 %patch -P 2 -p1 -b .inochi-session-metadata-fix
+%patch -P 3 -p1 -b .inochi-session-f42-fix
 mkdir -p deps
 
 # Project maintained deps
